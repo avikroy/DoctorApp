@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD040A019B8D53000E459FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD0409F19B8D53000E459FB /* Foundation.framework */; };
+		0AD040A219B8D53000E459FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD040A119B8D53000E459FB /* CoreGraphics.framework */; };
+		0AD040A419B8D53000E459FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD040A319B8D53000E459FB /* UIKit.framework */; };
+		0AD040AA19B8D53000E459FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AD040A819B8D53000E459FB /* InfoPlist.strings */; };
+		0AD040AC19B8D53000E459FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD040AB19B8D53000E459FB /* main.m */; };
+		0AD040B019B8D53000E459FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD040AF19B8D53000E459FB /* AppDelegate.m */; };
+		0AD040B319B8D53000E459FB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD040B119B8D53000E459FB /* Main_iPhone.storyboard */; };
+		0AD040B619B8D53000E459FB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD040B419B8D53000E459FB /* Main_iPad.storyboard */; };
+		0AD040B919B8D53000E459FB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD040B819B8D53000E459FB /* MainViewController.m */; };
+		0AD040BC19B8D53000E459FB /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD040BB19B8D53000E459FB /* FlipsideViewController.m */; };
+		0AD040BE19B8D53000E459FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD040BD19B8D53000E459FB /* Images.xcassets */; };
+		0AD040C519B8D53000E459FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD040C419B8D53000E459FB /* XCTest.framework */; };
+		0AD040C619B8D53000E459FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD0409F19B8D53000E459FB /* Foundation.framework */; };
+		0AD040C719B8D53000E459FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD040A319B8D53000E459FB /* UIKit.framework */; };
+		0AD040CF19B8D53000E459FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AD040CD19B8D53000E459FB /* InfoPlist.strings */; };
+		0AD040D119B8D53000E459FB /* DoctorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD040D019B8D53000E459FB /* DoctorAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AD040C819B8D53000E459FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD0409419B8D53000E459FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD0409B19B8D53000E459FB;
+			remoteInfo = DoctorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD0409C19B8D53000E459FB /* DoctorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD0409F19B8D53000E459FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AD040A119B8D53000E459FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AD040A319B8D53000E459FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AD040A719B8D53000E459FB /* DoctorApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoctorApp-Info.plist"; sourceTree = "<group>"; };
+		0AD040A919B8D53000E459FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AD040AB19B8D53000E459FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AD040AD19B8D53000E459FB /* DoctorApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoctorApp-Prefix.pch"; sourceTree = "<group>"; };
+		0AD040AE19B8D53000E459FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AD040AF19B8D53000E459FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AD040B219B8D53000E459FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0AD040B519B8D53000E459FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0AD040B719B8D53000E459FB /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0AD040B819B8D53000E459FB /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0AD040BA19B8D53000E459FB /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		0AD040BB19B8D53000E459FB /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		0AD040BD19B8D53000E459FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0AD040C319B8D53000E459FB /* DoctorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD040C419B8D53000E459FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0AD040CC19B8D53000E459FB /* DoctorAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoctorAppTests-Info.plist"; sourceTree = "<group>"; };
+		0AD040CE19B8D53000E459FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AD040D019B8D53000E459FB /* DoctorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoctorAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD0409919B8D53000E459FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD040A219B8D53000E459FB /* CoreGraphics.framework in Frameworks */,
+				0AD040A419B8D53000E459FB /* UIKit.framework in Frameworks */,
+				0AD040A019B8D53000E459FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD040C019B8D53000E459FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD040C519B8D53000E459FB /* XCTest.framework in Frameworks */,
+				0AD040C719B8D53000E459FB /* UIKit.framework in Frameworks */,
+				0AD040C619B8D53000E459FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD0409319B8D53000E459FB = {
+			isa = PBXGroup;
+			children = (
+				0AD040A519B8D53000E459FB /* DoctorApp */,
+				0AD040CA19B8D53000E459FB /* DoctorAppTests */,
+				0AD0409E19B8D53000E459FB /* Frameworks */,
+				0AD0409D19B8D53000E459FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AD0409D19B8D53000E459FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AD0409C19B8D53000E459FB /* DoctorApp.app */,
+				0AD040C319B8D53000E459FB /* DoctorAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AD0409E19B8D53000E459FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AD0409F19B8D53000E459FB /* Foundation.framework */,
+				0AD040A119B8D53000E459FB /* CoreGraphics.framework */,
+				0AD040A319B8D53000E459FB /* UIKit.framework */,
+				0AD040C419B8D53000E459FB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AD040A519B8D53000E459FB /* DoctorApp */ = {
+			isa = PBXGroup;
+			children = (
+				0AD040AE19B8D53000E459FB /* AppDelegate.h */,
+				0AD040AF19B8D53000E459FB /* AppDelegate.m */,
+				0AD040B119B8D53000E459FB /* Main_iPhone.storyboard */,
+				0AD040B419B8D53000E459FB /* Main_iPad.storyboard */,
+				0AD040B719B8D53000E459FB /* MainViewController.h */,
+				0AD040B819B8D53000E459FB /* MainViewController.m */,
+				0AD040BA19B8D53000E459FB /* FlipsideViewController.h */,
+				0AD040BB19B8D53000E459FB /* FlipsideViewController.m */,
+				0AD040BD19B8D53000E459FB /* Images.xcassets */,
+				0AD040A619B8D53000E459FB /* Supporting Files */,
+			);
+			path = DoctorApp;
+			sourceTree = "<group>";
+		};
+		0AD040A619B8D53000E459FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD040A719B8D53000E459FB /* DoctorApp-Info.plist */,
+				0AD040A819B8D53000E459FB /* InfoPlist.strings */,
+				0AD040AB19B8D53000E459FB /* main.m */,
+				0AD040AD19B8D53000E459FB /* DoctorApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AD040CA19B8D53000E459FB /* DoctorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AD040D019B8D53000E459FB /* DoctorAppTests.m */,
+				0AD040CB19B8D53000E459FB /* Supporting Files */,
+			);
+			path = DoctorAppTests;
+			sourceTree = "<group>";
+		};
+		0AD040CB19B8D53000E459FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD040CC19B8D53000E459FB /* DoctorAppTests-Info.plist */,
+				0AD040CD19B8D53000E459FB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AD0409B19B8D53000E459FB /* DoctorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD040D419B8D53000E459FB /* Build configuration list for PBXNativeTarget "DoctorApp" */;
+			buildPhases = (
+				0AD0409819B8D53000E459FB /* Sources */,
+				0AD0409919B8D53000E459FB /* Frameworks */,
+				0AD0409A19B8D53000E459FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorApp;
+			productName = DoctorApp;
+			productReference = 0AD0409C19B8D53000E459FB /* DoctorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AD040C219B8D53000E459FB /* DoctorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD040D719B8D53000E459FB /* Build configuration list for PBXNativeTarget "DoctorAppTests" */;
+			buildPhases = (
+				0AD040BF19B8D53000E459FB /* Sources */,
+				0AD040C019B8D53000E459FB /* Frameworks */,
+				0AD040C119B8D53000E459FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD040C919B8D53000E459FB /* PBXTargetDependency */,
+			);
+			name = DoctorAppTests;
+			productName = DoctorAppTests;
+			productReference = 0AD040C319B8D53000E459FB /* DoctorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AD0409419B8D53000E459FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Debasish;
+				TargetAttributes = {
+					0AD040C219B8D53000E459FB = {
+						TestTargetID = 0AD0409B19B8D53000E459FB;
+					};
+				};
+			};
+			buildConfigurationList = 0AD0409719B8D53000E459FB /* Build configuration list for PBXProject "DoctorApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AD0409319B8D53000E459FB;
+			productRefGroup = 0AD0409D19B8D53000E459FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AD0409B19B8D53000E459FB /* DoctorApp */,
+				0AD040C219B8D53000E459FB /* DoctorAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD0409A19B8D53000E459FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD040B619B8D53000E459FB /* Main_iPad.storyboard in Resources */,
+				0AD040BE19B8D53000E459FB /* Images.xcassets in Resources */,
+				0AD040B319B8D53000E459FB /* Main_iPhone.storyboard in Resources */,
+				0AD040AA19B8D53000E459FB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD040C119B8D53000E459FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD040CF19B8D53000E459FB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD0409819B8D53000E459FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD040B019B8D53000E459FB /* AppDelegate.m in Sources */,
+				0AD040B919B8D53000E459FB /* MainViewController.m in Sources */,
+				0AD040BC19B8D53000E459FB /* FlipsideViewController.m in Sources */,
+				0AD040AC19B8D53000E459FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD040BF19B8D53000E459FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD040D119B8D53000E459FB /* DoctorAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AD040C919B8D53000E459FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD0409B19B8D53000E459FB /* DoctorApp */;
+			targetProxy = 0AD040C819B8D53000E459FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AD040A819B8D53000E459FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD040A919B8D53000E459FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AD040B119B8D53000E459FB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD040B219B8D53000E459FB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0AD040B419B8D53000E459FB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD040B519B8D53000E459FB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0AD040CD19B8D53000E459FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD040CE19B8D53000E459FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AD040D219B8D53000E459FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AD040D319B8D53000E459FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AD040D519B8D53000E459FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoctorApp/DoctorApp-Prefix.pch";
+				INFOPLIST_FILE = "DoctorApp/DoctorApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AD040D619B8D53000E459FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoctorApp/DoctorApp-Prefix.pch";
+				INFOPLIST_FILE = "DoctorApp/DoctorApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0AD040D819B8D53000E459FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoctorApp.app/DoctorApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoctorApp/DoctorApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DoctorAppTests/DoctorAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0AD040D919B8D53000E459FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoctorApp.app/DoctorApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoctorApp/DoctorApp-Prefix.pch";
+				INFOPLIST_FILE = "DoctorAppTests/DoctorAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AD0409719B8D53000E459FB /* Build configuration list for PBXProject "DoctorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD040D219B8D53000E459FB /* Debug */,
+				0AD040D319B8D53000E459FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD040D419B8D53000E459FB /* Build configuration list for PBXNativeTarget "DoctorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD040D519B8D53000E459FB /* Debug */,
+				0AD040D619B8D53000E459FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AD040D719B8D53000E459FB /* Build configuration list for PBXNativeTarget "DoctorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD040D819B8D53000E459FB /* Debug */,
+				0AD040D919B8D53000E459FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AD0409419B8D53000E459FB /* Project object */;
+}
