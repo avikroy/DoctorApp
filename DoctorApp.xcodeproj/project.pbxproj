@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AA7401319BCB723006A76A1 /* TermsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7401119BCB723006A76A1 /* TermsViewController.m */; };
+		0AA7401419BCB723006A76A1 /* TermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7401219BCB723006A76A1 /* TermsViewController.xib */; };
+		0AA7401919BCBC97006A76A1 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7401719BCBC97006A76A1 /* MenuViewController.m */; };
+		0AA7401A19BCBC97006A76A1 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7401819BCBC97006A76A1 /* MenuViewController.xib */; };
 		0AD040A019B8D53000E459FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD0409F19B8D53000E459FB /* Foundation.framework */; };
 		0AD040A219B8D53000E459FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD040A119B8D53000E459FB /* CoreGraphics.framework */; };
 		0AD040A419B8D53000E459FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD040A319B8D53000E459FB /* UIKit.framework */; };
@@ -108,6 +112,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA7401019BCB723006A76A1 /* TermsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsViewController.h; sourceTree = "<group>"; };
+		0AA7401119BCB723006A76A1 /* TermsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsViewController.m; sourceTree = "<group>"; };
+		0AA7401219BCB723006A76A1 /* TermsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermsViewController.xib; sourceTree = "<group>"; };
+		0AA7401619BCBC97006A76A1 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0AA7401719BCBC97006A76A1 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0AA7401819BCBC97006A76A1 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		0AD0409C19B8D53000E459FB /* DoctorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD0409F19B8D53000E459FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0AD040A119B8D53000E459FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -293,6 +303,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AA7400F19BCB6FF006A76A1 /* Terms Class */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7401019BCB723006A76A1 /* TermsViewController.h */,
+				0AA7401119BCB723006A76A1 /* TermsViewController.m */,
+				0AA7401219BCB723006A76A1 /* TermsViewController.xib */,
+			);
+			path = "Terms Class";
+			sourceTree = "<group>";
+		};
+		0AA7401519BCBC65006A76A1 /* Menu Class */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7401619BCBC97006A76A1 /* MenuViewController.h */,
+				0AA7401719BCBC97006A76A1 /* MenuViewController.m */,
+				0AA7401819BCBC97006A76A1 /* MenuViewController.xib */,
+			);
+			path = "Menu Class";
+			sourceTree = "<group>";
+		};
 		0AD0409319B8D53000E459FB = {
 			isa = PBXGroup;
 			children = (
@@ -717,6 +747,8 @@
 		8C9D8D5019BAEA03000A2F90 /* Project Class */ = {
 			isa = PBXGroup;
 			children = (
+				0AA7401519BCBC65006A76A1 /* Menu Class */,
+				0AA7400F19BCB6FF006A76A1 /* Terms Class */,
 				8C9D8D5119BAEA03000A2F90 /* App Delegate Class */,
 				8C9D8D5419BAEA03000A2F90 /* Splash Class */,
 			);
@@ -871,10 +903,12 @@
 				8C9D8D7B19BB1788000A2F90 /* DontAgree@2x.png in Resources */,
 				0AD040AA19B8D53000E459FB /* InfoPlist.strings in Resources */,
 				8C9D8D8619BB1788000A2F90 /* Menu button@1x.png in Resources */,
+				0AA7401419BCB723006A76A1 /* TermsViewController.xib in Resources */,
 				8C9D8D7919BB1788000A2F90 /* Agree@2x.png in Resources */,
 				8C9D8D8719BB1788000A2F90 /* Menu button@2x.png in Resources */,
 				8C9D8D8119BB1788000A2F90 /* logo3@2x.png in Resources */,
 				8C9D8D8419BB1788000A2F90 /* logo5@1x.png in Resources */,
+				0AA7401A19BCBC97006A76A1 /* MenuViewController.xib in Resources */,
 				8C9D8D7D19BB1788000A2F90 /* logo1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -921,6 +955,7 @@
 				8C9D8D3619BAE9E5000A2F90 /* SBJsonBase.m in Sources */,
 				8C9D8D4419BAE9E5000A2F90 /* TableViewController.m in Sources */,
 				8C9D8D4F19BAE9E5000A2F90 /* UIViewController+ModalPush.m in Sources */,
+				0AA7401319BCB723006A76A1 /* TermsViewController.m in Sources */,
 				8C9D8D1F19BAE9E5000A2F90 /* ASIDownloadCache.m in Sources */,
 				8C9D8D2219BAE9E5000A2F90 /* ASIInputStream.m in Sources */,
 				8C9D8D3219BAE9E5000A2F90 /* UIImage+RoundedCorner.m in Sources */,
@@ -930,6 +965,7 @@
 				8C9D8D2B19BAE9E5000A2F90 /* MF_Base64Additions.m in Sources */,
 				8C9D8D2F19BAE9E5000A2F90 /* Global.m in Sources */,
 				8C9D8D4819BAE9E5000A2F90 /* SBJson4StreamParserState.m in Sources */,
+				0AA7401919BCBC97006A76A1 /* MenuViewController.m in Sources */,
 				8C9D8D4119BAE9E5000A2F90 /* MBProgressHUD.m in Sources */,
 				8C9D8D4B19BAE9E5000A2F90 /* SBJson4StreamWriterState.m in Sources */,
 				8C9D8D4E19BAE9E5000A2F90 /* UIImageView+PhotoFrame.m in Sources */,
