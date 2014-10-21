@@ -75,6 +75,7 @@
 		0AEA926719DB1C39001F3BF0 /* world@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEA925F19DB1C39001F3BF0 /* world@2x.png */; };
 		8C76ED5219F6D16D0097DBA1 /* DentalApp_profile.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 8C76ED5019F6D16D0097DBA1 /* DentalApp_profile.mobileprovision */; };
 		8C76ED5319F6D16D0097DBA1 /* ios_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8C76ED5119F6D16D0097DBA1 /* ios_development.cer */; };
+		8C76ED5519F6D1D40097DBA1 /* dental-assistant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C76ED5419F6D1D40097DBA1 /* dental-assistant.jpg */; };
 		8C9D8D1819BAE9E5000A2F90 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D8C8419BAE9E5000A2F90 /* DejalActivityView.m */; };
 		8C9D8D1A19BAE9E5000A2F90 /* AppToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D8C8A19BAE9E5000A2F90 /* AppToolBox.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8C9D8D1B19BAE9E5000A2F90 /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D8C8C19BAE9E5000A2F90 /* CustomTextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -243,6 +244,7 @@
 		0AEA925F19DB1C39001F3BF0 /* world@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world@2x.png"; sourceTree = "<group>"; };
 		8C76ED5019F6D16D0097DBA1 /* DentalApp_profile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = DentalApp_profile.mobileprovision; sourceTree = "<group>"; };
 		8C76ED5119F6D16D0097DBA1 /* ios_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios_development.cer; sourceTree = "<group>"; };
+		8C76ED5419F6D1D40097DBA1 /* dental-assistant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dental-assistant.jpg"; sourceTree = "<group>"; };
 		8C9D8C8319BAE9E5000A2F90 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		8C9D8C8419BAE9E5000A2F90 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		8C9D8C8919BAE9E5000A2F90 /* AppToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppToolBox.h; sourceTree = "<group>"; };
@@ -996,6 +998,7 @@
 		8C9D8D6519BB1788000A2F90 /* screen1A */ = {
 			isa = PBXGroup;
 			children = (
+				8C76ED5419F6D1D40097DBA1 /* dental-assistant.jpg */,
 				0A665B2E19F41DB30043FBEC /* Dentist650x400.jpg */,
 				0A665B2F19F41DB30043FBEC /* secretary.jpg */,
 				8C9D8D6619BB1788000A2F90 /* Terms_Of_Use */,
@@ -1146,6 +1149,7 @@
 				8C9D8D8519BB1788000A2F90 /* logo5@2x.png in Resources */,
 				8C9D8D7B19BB1788000A2F90 /* DontAgree@2x.png in Resources */,
 				0A3DDF4519E3191200B53FBA /* find_our_office-book.png in Resources */,
+				8C76ED5519F6D1D40097DBA1 /* dental-assistant.jpg in Resources */,
 				0A3DDF5119E3191200B53FBA /* Visit_Our_Office-restore.png in Resources */,
 				0A3DDF4919E3191200B53FBA /* find_our_office-pointer.png in Resources */,
 				0A3DDF5019E3191200B53FBA /* Visit_Our_Office-play.png in Resources */,
