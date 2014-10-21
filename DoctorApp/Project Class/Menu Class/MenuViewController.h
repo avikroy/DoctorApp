@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface MenuViewController : BaseViewController
+- (IBAction)btnActionHome:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *btnHome;
+- (IBAction)btnActionPatient:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *btnPatient;
+@property (weak, nonatomic) IBOutlet UITableView *tblVwMenu;
+
+@property (nonatomic, strong) NSArray *menuTitle;
+@property (nonatomic, strong) NSArray *menuImage;
 
 @end

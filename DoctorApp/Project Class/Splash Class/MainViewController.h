@@ -14,5 +14,10 @@
 }
 - (IBAction)btnActionSlide:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *btnSlide;
+@property (weak, nonatomic) IBOutlet UILabel *lblTopName;
+@property (weak, nonatomic) IBOutlet UILabel *lblDegree;
+@property (weak, nonatomic) IBOutlet UILabel *lblMidName;
+@property (weak, nonatomic) IBOutlet UILabel *lblBottomName;
+@property (weak, nonatomic) IBOutlet UIImageView *imgVwLogo;
 
 @end

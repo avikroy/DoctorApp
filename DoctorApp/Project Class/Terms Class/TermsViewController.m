@@ -7,7 +7,7 @@
 //
 
 #import "TermsViewController.h"
-
+#import "MenuViewController.h"
 @interface TermsViewController ()
 
 @end
@@ -28,7 +28,10 @@
     [super viewDidLoad];
      [self.navigationItem setHidesBackButton:YES animated:NO];
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
-    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
+    _txtVwAgree.indicatorStyle = UIScrollViewIndicatorStyleWhite;
+   
     if (iphoneTallScreen())
     {
     }
@@ -62,6 +65,8 @@
 
 - (IBAction)btnActionAgree:(id)sender
 {
+    MenuViewController *menuVC=[[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:nil];
+    [self.navigationController pushViewController:menuVC animated:YES];
 }
 - (IBAction)btnActionDontAgree:(id)sender {
 }
