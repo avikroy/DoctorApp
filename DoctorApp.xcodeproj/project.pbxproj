@@ -48,7 +48,6 @@
 		0A3DDF5319E3191200B53FBA /* Visit_Our_Office-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DDF3819E3191200B53FBA /* Visit_Our_Office-up.png */; };
 		0A64A90919E6ED8700720945 /* menu-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A64A90719E6ED8700720945 /* menu-circle.png */; };
 		0A64A90A19E6ED8700720945 /* mwnu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A64A90819E6ED8700720945 /* mwnu.png */; };
-		0A665B3019F41DB30043FBEC /* dental-assistant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A665B2D19F41DB30043FBEC /* dental-assistant.jpg */; };
 		0A665B3119F41DB30043FBEC /* Dentist650x400.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A665B2E19F41DB30043FBEC /* Dentist650x400.jpg */; };
 		0A665B3219F41DB30043FBEC /* secretary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A665B2F19F41DB30043FBEC /* secretary.jpg */; };
 		0AA7401319BCB723006A76A1 /* TermsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7401119BCB723006A76A1 /* TermsViewController.m */; };
@@ -74,6 +73,8 @@
 		0AEA926519DB1C39001F3BF0 /* phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEA925D19DB1C39001F3BF0 /* phone@2x.png */; };
 		0AEA926619DB1C39001F3BF0 /* team@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEA925E19DB1C39001F3BF0 /* team@2x.png */; };
 		0AEA926719DB1C39001F3BF0 /* world@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEA925F19DB1C39001F3BF0 /* world@2x.png */; };
+		8C76ED5219F6D16D0097DBA1 /* DentalApp_profile.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 8C76ED5019F6D16D0097DBA1 /* DentalApp_profile.mobileprovision */; };
+		8C76ED5319F6D16D0097DBA1 /* ios_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8C76ED5119F6D16D0097DBA1 /* ios_development.cer */; };
 		8C9D8D1819BAE9E5000A2F90 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D8C8419BAE9E5000A2F90 /* DejalActivityView.m */; };
 		8C9D8D1A19BAE9E5000A2F90 /* AppToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D8C8A19BAE9E5000A2F90 /* AppToolBox.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8C9D8D1B19BAE9E5000A2F90 /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D8C8C19BAE9E5000A2F90 /* CustomTextView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -210,7 +211,6 @@
 		0A3DDF3819E3191200B53FBA /* Visit_Our_Office-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Visit_Our_Office-up.png"; sourceTree = "<group>"; };
 		0A64A90719E6ED8700720945 /* menu-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-circle.png"; sourceTree = "<group>"; };
 		0A64A90819E6ED8700720945 /* mwnu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mwnu.png; sourceTree = "<group>"; };
-		0A665B2D19F41DB30043FBEC /* dental-assistant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dental-assistant.jpg"; sourceTree = "<group>"; };
 		0A665B2E19F41DB30043FBEC /* Dentist650x400.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dentist650x400.jpg; sourceTree = "<group>"; };
 		0A665B2F19F41DB30043FBEC /* secretary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secretary.jpg; sourceTree = "<group>"; };
 		0AA7401019BCB723006A76A1 /* TermsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsViewController.h; sourceTree = "<group>"; };
@@ -241,6 +241,8 @@
 		0AEA925D19DB1C39001F3BF0 /* phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@2x.png"; sourceTree = "<group>"; };
 		0AEA925E19DB1C39001F3BF0 /* team@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "team@2x.png"; sourceTree = "<group>"; };
 		0AEA925F19DB1C39001F3BF0 /* world@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world@2x.png"; sourceTree = "<group>"; };
+		8C76ED5019F6D16D0097DBA1 /* DentalApp_profile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = DentalApp_profile.mobileprovision; sourceTree = "<group>"; };
+		8C76ED5119F6D16D0097DBA1 /* ios_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios_development.cer; sourceTree = "<group>"; };
 		8C9D8C8319BAE9E5000A2F90 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		8C9D8C8419BAE9E5000A2F90 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		8C9D8C8919BAE9E5000A2F90 /* AppToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppToolBox.h; sourceTree = "<group>"; };
@@ -547,6 +549,7 @@
 		0AD040A519B8D53000E459FB /* DoctorApp */ = {
 			isa = PBXGroup;
 			children = (
+				8C76ED4F19F6D16D0097DBA1 /* DEB */,
 				0A3DDF1D19E3191200B53FBA /* office_graphics */,
 				0AEA925719DB1C39001F3BF0 /* menu_icons */,
 				8C9D8D6519BB1788000A2F90 /* screen1A */,
@@ -600,6 +603,15 @@
 				0AEA925F19DB1C39001F3BF0 /* world@2x.png */,
 			);
 			path = menu_icons;
+			sourceTree = "<group>";
+		};
+		8C76ED4F19F6D16D0097DBA1 /* DEB */ = {
+			isa = PBXGroup;
+			children = (
+				8C76ED5019F6D16D0097DBA1 /* DentalApp_profile.mobileprovision */,
+				8C76ED5119F6D16D0097DBA1 /* ios_development.cer */,
+			);
+			path = DEB;
 			sourceTree = "<group>";
 		};
 		8C9D8C8119BAE9E5000A2F90 /* Model Classes */ = {
@@ -984,7 +996,6 @@
 		8C9D8D6519BB1788000A2F90 /* screen1A */ = {
 			isa = PBXGroup;
 			children = (
-				0A665B2D19F41DB30043FBEC /* dental-assistant.jpg */,
 				0A665B2E19F41DB30043FBEC /* Dentist650x400.jpg */,
 				0A665B2F19F41DB30043FBEC /* secretary.jpg */,
 				8C9D8D6619BB1788000A2F90 /* Terms_Of_Use */,
@@ -1120,6 +1131,7 @@
 				0A3DDF1219E3011800B53FBA /* ContactOfficeViewController.xib in Resources */,
 				8C9D8D8019BB1788000A2F90 /* logo3@1x.png in Resources */,
 				8C9D8D7A19BB1788000A2F90 /* DontAgree@1x.png in Resources */,
+				8C76ED5319F6D16D0097DBA1 /* ios_development.cer in Resources */,
 				0AEA926619DB1C39001F3BF0 /* team@2x.png in Resources */,
 				0A3DDF4E19E3191200B53FBA /* Visit_Our_Office-message.png in Resources */,
 				0A3DDF5219E3191200B53FBA /* Visit_Our_Office-twitter.png in Resources */,
@@ -1146,7 +1158,6 @@
 				0AEA926019DB1C39001F3BF0 /* box@2x.png in Resources */,
 				0A3DDF3919E3191200B53FBA /* Contact_Our_Office-compas-4s.png in Resources */,
 				8C9D8D8619BB1788000A2F90 /* Menu button@1x.png in Resources */,
-				0A665B3019F41DB30043FBEC /* dental-assistant.jpg in Resources */,
 				0AA7401419BCB723006A76A1 /* TermsViewController.xib in Resources */,
 				0A3DDF4619E3191200B53FBA /* find_our_office-home.png in Resources */,
 				0A3DDF4119E3191200B53FBA /* Contact_Our_Office-phone-4s.png in Resources */,
@@ -1155,6 +1166,7 @@
 				0A0F270E19ED863D00334603 /* MeetTeamViewController.xib in Resources */,
 				0A3DDF1C19E3017500B53FBA /* VisitOfficeViewController.xib in Resources */,
 				0AEA926119DB1C39001F3BF0 /* compass@2x.png in Resources */,
+				8C76ED5219F6D16D0097DBA1 /* DentalApp_profile.mobileprovision in Resources */,
 				0A00500E19D6E045008C02AD /* tooth.png in Resources */,
 				0A665B3119F41DB30043FBEC /* Dentist650x400.jpg in Resources */,
 				8C9D8D7919BB1788000A2F90 /* Agree@2x.png in Resources */,
