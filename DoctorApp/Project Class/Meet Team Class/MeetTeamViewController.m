@@ -104,7 +104,7 @@
         lblCellTitle.numberOfLines=1;
         lblCellTitle.textColor=[UIColor whiteColor];
         lblCellTitle.text = [self.arrLblTitleSlides objectAtIndex:i];
-        lblCellTitle.font=[UIFont fontWithName:@"HelveticaNeue-Light" size:24.0];
+        lblCellTitle.font=[UIFont fontWithName:@"HelveticaNeue-Thin" size:24.0];
         [self.scrollVwBG addSubview:lblCellTitle];
 
         UILabel  * lblCellSubTitle = [[UILabel alloc] init];
@@ -153,12 +153,14 @@
                txtView.frame = CGRectMake(cx+38,250.0,245,173);
            }
        }
-        [txtView setFont:[UIFont fontWithName:@"HelveticaNeue-Thin" size:12.0]];
+        [txtView setFont:[UIFont fontWithName:@"HelveticaNeue-Thin" size:24.0]];
         txtView.backgroundColor = [UIColor clearColor];
         txtView.text = [self.arrLblDescSlides objectAtIndex:i];
-       // txtView.userInteractionEnabled = NO;
-        txtView.alpha=0.7;
-        txtView.textColor=[UIColor whiteColor];
+        txtView.userInteractionEnabled = YES;
+        txtView.editable=NO;
+//        txtView.alpha=0.7;
+        txtView.textColor=[UIColor colorWithWhite:1.0 alpha:0.7];
+        
         txtView.indicatorStyle = UIScrollViewIndicatorStyleWhite;
         [self.scrollVwBG addSubview:txtView];
         
